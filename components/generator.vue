@@ -1,7 +1,6 @@
 <script setup>
 import { ElMessage } from 'element-plus'
 import PasswordGenerator from "../services/password_generator"
-import Placeholder from './placeholder.vue';
 
 const length = ref(12)
 const uppercase = ref(true)
